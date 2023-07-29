@@ -28,7 +28,7 @@ public class BookController {
 	
 	@RequestMapping("/")
 	public String hoemPage() {
-		return "home";
+		return "index";
 	}
 	
 	@RequestMapping("/book_register")
